@@ -1,0 +1,16 @@
+{
+  "name": "jwo-facts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "local": "lambda-local -l index.js -h handler -e event.json",
+    "local-launch": "lambda-local -l index.js -h handler -e LaunchRequest.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "alexa-sdk": "^1.0.10"
+  }
+}

@@ -1,0 +1,3 @@
+factIntent Fun Fact
+factIntent for a Fact
+factIntent for advice on life
